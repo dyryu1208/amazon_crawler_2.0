@@ -1,6 +1,8 @@
 # amazon_crawler_2.0
 
 [Amazon.com](https://www.amazon.com/ref=nav_logo)에서 제공하는 상품 및 리뷰 데이터에 대한 크롤링 코드
+
+
 수집 순서는 아래와 같음.
 
 1. [base_crawler](/Amazon_Crawler_v2.0_base_data.py) : 특정 카테고리 내 상품의 [상품명, 가격, 상품 링크, 리뷰 링크, Amazon's Choice 여부, Best Seller 여부]에 대해 크롤링, 단일 카테고리에서 약 1만개 수량의 상품 정보 크롤링 가능
